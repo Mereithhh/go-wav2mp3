@@ -1,0 +1,4 @@
+github.com/DylanMeeus/GoAudio v0.13.1 h1:vxsqF+5Sn12aY6+AcPoG8H/P8+TfSH/XPaHAC/gY0Ng=
+github.com/DylanMeeus/GoAudio v0.13.1/go.mod h1:V+oGHNuF+LDkPKK/LDzQs5HUs80TEn2LG9d8bYdbF/c=
+github.com/viert/go-lame v0.0.0-20201108052322-bb552596b11d h1:LptdD7GTUZeklomtW5vZ1AHwBvDBUCZ2Ftpaz7uEI7g=
+github.com/viert/go-lame v0.0.0-20201108052322-bb552596b11d/go.mod h1:EqTcYM7y4JlSfeTI47pmNu3EZQuCuLQefsQyg1Imlz8=
