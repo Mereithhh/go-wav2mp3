@@ -44,7 +44,7 @@ func (c *Wav2Mp3Config) SetBrate(brate int) *Wav2Mp3Config {
 }
 
 func Wav2Mp3(wavBytes []byte, config *Wav2Mp3Config) (mp3bytes []byte) {
-
+	wavBytes = wavBytes[44:] // remove header
 	byteWriter := &bytes.Buffer{}
 	enc := lame.NewEncoder(byteWriter)
 	enc.SetNumChannels(config.Channel)

@@ -8,12 +8,12 @@ import (
 )
 
 func TestWav2Mp3(t *testing.T) {
-	inputBytes, _ := os.ReadFile("test.wav")
+	inputBytes, _ := os.ReadFile("output.wav")
 
 	config := wav2mp3.NewWav2Mp3Config().SetBrate(128).SetChannel(1).SetInputSampleRate(22050).SetQuality(2)
 
 	outputBytes := wav2mp3.Wav2Mp3(inputBytes, config)
 
-	os.WriteFile("test.mp3", outputBytes, 0644)
+	os.WriteFile("output.mp3", outputBytes, 0644)
 
 }
